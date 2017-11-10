@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/story_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/text_margin"
+    android:paddingEnd="@dimen/text_margin"
+    android:paddingTop="@dimen/small_margin"
+    android:paddingBottom="@dimen/small_margin"
+    android:layout_margin="@dimen/std_margin"
+    android:textStyle="bold"
+    android:fontFamily="serif"
+    android:background="@drawable/card"
+    android:elevation="1dp"
+    android:text="@string/button_random" />

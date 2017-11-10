@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="stories_titles">
+        <item>Growing up</item>
+        <item>Who is Tarzan?</item>
+        <item>Education is important</item>
+        <item>The thrift shop</item>
+        <item>Dance the Monstrosity</item>
+    </string-array>
+
+    <string-array name="stories_filenames">
+        <item>madlib0_simple.txt</item>
+        <item>madlib1_tarzan.txt</item>
+        <item>madlib2_university.txt</item>
+        <item>madlib3_clothes.txt</item>
+        <item>madlib4_dance.txt</item>
+    </string-array>
+
+    <string-array name="stories_length">
+        <item>2</item>
+        <item>12</item>
+        <item>16</item>
+        <item>14</item>
+        <item>14</item>
+    </string-array>
+
+</resources>

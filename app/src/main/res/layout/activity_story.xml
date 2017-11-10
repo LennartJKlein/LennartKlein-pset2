@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="nl.lennartklein.lennartklein_pset2.StoryActivity">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/share_story"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="12dp"
+        android:layout_margin="@dimen/fab_margin"
+        android:onClick="shareStory"
+        app:layout_anchor="@id/header"
+        app:layout_anchorGravity="bottom|right|end"
+        app:srcCompat="@drawable/ic_share_24dp" />
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/app_bar_height"
+        android:layout_alignParentTop="true"
+        android:padding="@dimen/std_margin"
+        android:elevation="4dp"
+        android:background="@drawable/rectangle_dark">
+
+        <TextView
+            android:id="@+id/title_story"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="@color/colorInvert"
+            android:textSize="20sp"
+            android:text="@string/title_story" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="@dimen/app_bar_height">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/std_margin"
+            android:padding="@dimen/std_margin"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/story_export"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="20dp"
+                android:fontFamily="serif"
+                android:textSize="18sp"
+                android:lineSpacingMultiplier="1.35"
+                android:text="@string/output_placeholder"/>
+
+                <Button
+                    android:id="@+id/button_restart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/std_margin"
+                    android:layout_marginBottom="@dimen/std_margin"
+                    android:onClick="restartApp"
+                    android:text="@string/button_restart" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

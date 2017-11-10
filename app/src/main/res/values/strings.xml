@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Mad Libs</string>
+    <string name="app_description">Are you ready to become the wittiest person on this planet? Then go ahead: Pick a story below (or let me choose one for you). Fill in the blanks. And see how you made yourself a super funny story to read to your friends.</string>
+    <string name="title_fill_blanks">Fill in the blanks below</string>
+    <string name="title_story">Your story: </string>
+    <string name="input_hint">Enter a…</string>
+    <string name="output_placeholder">Lorum ipsum dolor sit amet. Consectetur adesciping elit.</string>
+    <string name="words_remaining">word(s) left to fill in</string>
+    <string name="button_random">random story</string>
+    <string name="button_next">next</string>
+    <string name="button_restart">make another story</string>
+</resources>

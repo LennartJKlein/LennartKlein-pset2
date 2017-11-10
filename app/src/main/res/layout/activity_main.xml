@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/std_margin">
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_margin="@dimen/std_margin"
+        app:srcCompat="@drawable/madlibs_logo" />
+
+    <TextView
+        android:id="@+id/app_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/std_margin"
+        android:fontFamily="serif"
+        android:lineSpacingMultiplier="1.15"
+        android:text="@string/app_description"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/button_random"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="startRandom"
+        android:text="@string/button_random" />
+
+    <ListView
+        android:id="@+id/list_stories"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/std_margin"
+        android:layout_marginStart="@dimen/std_margin"
+        android:layout_marginEnd="@dimen/std_margin"
+        android:dividerHeight="0dp"
+        android:divider="@color/colorTransparent" />
+
+</LinearLayout>
