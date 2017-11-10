@@ -1,11 +1,11 @@
-# ![Mad Libs - icon](/doc/app-icon.png?raw=true "Mad Libs - icon") Mad Libs
+# ![Mad Libs - icon](/docs/app-icon.png?raw=true "Mad Libs - icon") Mad Libs
 
 An android word game. Users can complete a story with their own words and share the funny result with their friends.
 It's always a surprise what the result is, but it is always funny. Guaranteed.
 
-![Mad Libs - begin](/doc/screenshot-start.png?raw=true "Mad Libs - begin")
-![Mad Libs - words](/doc/screenshot-words.png?raw=true "Mad Libs - words")
-![Mad Libs - result](/doc/screenshot-result.png?raw=true "Mad Libs - result")
+![Mad Libs - begin](/docs/screenshot-start.png?raw=true "Mad Libs - begin")
+![Mad Libs - words](/docs/screenshot-words.png?raw=true "Mad Libs - words")
+![Mad Libs - result](/docs/screenshot-result.png?raw=true "Mad Libs - result")
 
 ## Getting Started
 
